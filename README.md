@@ -67,6 +67,5 @@ This is an example of how to list things you need to use the software and how to
 4. Test all API in collections.
     
 ### Notes
-Here's why:
 * The ENV file is used to store connection strings for databases, but it doesn't encrypt them for easier testing.
 * The database is an Azure Database for MySQL Flexible Server run on Azure Cloud with an open firewall for any IP address.
