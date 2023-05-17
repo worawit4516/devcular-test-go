@@ -33,6 +33,7 @@ func ConnectDatabase() *gorm.DB {
 	return db
 }
 
+// functions for disconnect from mysql database
 func DisconnectDatabase(db *gorm.DB) {
 	database, err := db.DB()
 	if err != nil {
